@@ -1,0 +1,17 @@
+<!-- Generated template for the VatArticleComponent component -->
+<ion-card>
+  <ion-card-header (click)="toggleDetail()">
+      <ion-icon *ngIf="istoggle==0" name="arrow-dropdown-circle"></ion-icon>
+      <ion-icon *ngIf="istoggle==1" name="arrow-dropup-circle"></ion-icon>
+      {{article.name}}
+  </ion-card-header>
+  <ion-card-content *ngIf="istoggle == 1">
+    <span [innerHTML]="getDynamic(article.content) | safeHtml"></span>
+    <div class="clause" *ngFor="let clause of article.clauses">
+        {{clause.ref.substring(clause.ref.length-2,clause.ref.length)}}. {{clause.name}} <span [innerHTML]="getDynamic(clause.content) | safeHtml"></span>
+        <div class = "paragraph" *ngFor="let para of clause.paragraphs">
+          {{para.ref.substring(para.ref.length-1,para.ref.length).toLowerCase()}}. <span [innerHTML]="getDynamic(para.content)  | safeHtml"></span>
+        </div>
+    </div>
+  </ion-card-content>
+</ion-card>

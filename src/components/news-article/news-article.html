@@ -1,0 +1,21 @@
+<!-- Generated template for the NewsArticleComponent component -->
+<ion-card (click)="launchBrowser()">
+  <ion-card-header>
+    <ion-grid>
+      <ion-row>
+        <span class = "timeago" text-center>{{news.pubDate | timeAgo}}</span>
+      </ion-row>
+      <ion-row>
+        <ion-col col-1 text-left>
+            <ion-icon name="paper"></ion-icon>
+        </ion-col>
+        <ion-col>
+            <span>{{parseDomain(news.link)}}</span>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-header>
+  <ion-card-content>
+    {{news.title}}
+  </ion-card-content>
+</ion-card>

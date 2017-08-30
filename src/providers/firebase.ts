@@ -6,8 +6,8 @@ import 'rxjs/add/operator/map';
  * Api is a generic REST Api handler. Set your API url first.
  */
 @Injectable()
-export class Api {
-  url: string = 'https://api.rss2json.com/v1';
+export class Firebase {
+  url: string = 'https://uaevat-98159.firebaseio.com';
 
   constructor(public http: Http) {
   }

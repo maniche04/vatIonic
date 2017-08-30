@@ -1,0 +1,29 @@
+news-article {
+  ion-icon {
+    font-size:18px;
+    padding-right:10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timeago {
+    font-size:0.6em;
+    text-align:right;
+    width:100%;
+  }
+
+  * {
+    font-family:1.1em;
+  }
+
+  ion-card-header {
+    padding-bottom:5px !important;
+  }
+}
+
+
+
+

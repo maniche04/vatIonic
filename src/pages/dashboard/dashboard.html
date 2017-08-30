@@ -1,0 +1,33 @@
+<!--
+  Generated template for the DashboardPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Dashboard</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    Welcome to UAE VAT Guide.
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+            <navtile [link]="'Law'" [icon]="'book'" [title]="'Law'" [subtitle]="'Federal Decree-Law No. (8) of 2017 on VAT'"></navtile>
+        </ion-col>
+        <ion-col col-6>
+            <navtile [link]="'News'" [icon]="'paper'" [title]="'News'" [subtitle]="'Compilation of VAT related news'"></navtile>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+</ion-content>

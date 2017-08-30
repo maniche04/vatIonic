@@ -1,0 +1,559 @@
+{
+  "title": "Federal Decree-Law No. (8) of 2017 on VAT",
+  "shortTitle": "Law No.8 on VAT",
+  "publisher": "Federal Tax Authority, UAE",
+  "publishedDate": "2017-08-27",
+  "updatedDate": "",
+  "description": "The law that governs the treatment on VAT.",
+  "titles": [
+    {
+      "ref": "T01",
+      "name": "Title 1",
+      "description": "Definitions",
+      "chapters": [
+        {
+          "ref": "T01C00",
+          "name": "",
+          "description": "",
+          "articles": [
+            {
+              "ref": "T01C00A01",
+              "name": "Article (1) - Definitions",
+              "content": "In the application of the provisions of this Decree-Law, the following words and expressions shall have the meanings assigned against each, unless the context otherwise requires:",
+              "clauses": [
+                {
+                  "ref": "T01C00A01CL01",
+                  "name": "State",
+                  "content": "United Arab Emirates"
+                },
+                {
+                  "ref": "T01C00A01CL02",
+                  "name": "Minister",
+                  "content": "Minister of Finance"
+                },
+                {
+                  "ref": "T01C00A01CL03",
+                  "name": "Authority",
+                  "content": "Federal Tax Authority"
+                },
+                {
+                  "ref": "T01C00A01CL04",
+                  "name": "Authority",
+                  "content": "Federal Tax Authority"
+                },
+                {
+                  "ref": "T01C00A01CL05",
+                  "name": "Tax",
+                  "content": "Value Added Tax (VAT)"
+                },
+                {
+                  "ref": "T01C00A01CL06",
+                  "name": "GCC States",
+                  "content": "all countries that are full members of The Cooperation Council for the Arab States of the Gulf pursuant to its Charter"
+                },
+                {
+                  "ref": "T01C00A01CL07",
+                  "name": "Implementing States",
+                  "content": "The GCC States that are implementing a Tax law pursuant to an issued legislation."
+                },
+                {
+                  "ref": "T01C00A01CL08",
+                  "name": "Goods",
+                  "content": "Physical property that can be supplied including real estate, water, and all forms of energy as specified in the Executive Regulation of this Decree-Law"
+                },
+                {
+                  "ref": "T01C00A01CL09",
+                  "name": "Services",
+                  "content": "Anything that can be supplied other than Goods."
+                },
+                {
+                  "ref": "T01C00A01CL10",
+                  "name": "Import",
+                  "content": "The arrival of Goods from abroad into the State or receipt of Services from outside the State."
+                },
+                {
+                  "ref": "T01C00A01CL11",
+                  "name": "Concerned Goods",
+                  "content": "Goods that have been imported, and would not be exempt if supplied in the State."
+                },
+                {
+                  "ref": "T01C00A01CL12",
+                  "name": "Concerned Services",
+                  "content": "Services that have been imported, where the place of supply is in the State, and would not be exempt if supplied in the State."
+                },
+                {
+                  "ref": "T01C00A01CL13",
+                  "name": "Person",
+                  "content": "A natural or legal person."
+                },
+                {
+                  "ref": "T01C00A01CL14",
+                  "name": "Taxable Person",
+                  "content": "Any Person registered or obligated to register for Tax purposes under this Decree-Law."
+                },
+                {
+                  "ref": "T01C00A01CL15",
+                  "name": "Taxpayer",
+                  "content": "Any person obligated to pay Tax in the State under this Decree-Law, whether a Taxable Person or end consumer."
+                },
+                {
+                  "ref": "T01C00A01CL16",
+                  "name": "Tax Registration",
+                  "content": "A procedure according to which the Taxable Person or his Legal Representative registers for Tax purposes at the Authority."
+                },
+                {
+                  "ref": "T01C00A01CL17",
+                  "name": "Tax Registration Number (TRN)",
+                  "content": "A unique number issued by the Authority for each Person registered for Tax purposes."
+                },
+                {
+                  "ref": "T01C00A01CL18",
+                  "name": "Registrant",
+                  "content": "The Taxable Person who has been issued with a TRN."
+                },
+                {
+                  "ref": "T01C00A01CL19",
+                  "name": "Recipient of Goods",
+                  "content": "A natural or legal person."
+                },
+                {
+                  "ref": "T01C00A01CL20",
+                  "name": "Recipient of Services",
+                  "content": "Person to whom Services are supplied or imported."
+                },
+                {
+                  "ref": "T01C00A01CL21",
+                  "name": "Importer",
+                  "content": "With respect to importing Goods, it is the Person whose name is listed as the importer of the Goods on the date of Import for customs clearance purposes. With respect to Services, it is the Recipient of these Services."
+                },
+                {
+                  "ref": "T01C00A01CL22",
+                  "name": "Taxable Trader",
+                  "content": "A Taxable Person in the Implementing States, whose main activity is the distribution of water and all types of energy as specified in the Executive Regulation of this Decree-Law."
+                },
+                {
+                  "ref": "T01C00A01CL23",
+                  "name": "Tax Return",
+                  "content": "Information and data specified for Tax purposes and submitted by a Taxable Person in accordance with a form prepared by the Authority."
+                },
+                {
+                  "ref": "T01C00A01CL24",
+                  "name": "Consideration",
+                  "content": "All that is received or expected to be received for the supply of Goods or Services, whether in money or other acceptable forms of payment."
+                },
+                {
+                  "ref": "T01C00A01CL25",
+                  "name": "Business",
+                  "content": "Any activity conducted regularly, on an ongoing basis and independently by any Person, in any location, such as industrial, commercial, agricultural, professional, service or excavation activities or anything related to the use of tangible or intangible properties."
+                },
+                {
+                  "ref": "T01C00A01CL26",
+                  "name": "Exempt Supply",
+                  "content": "A supply of Goods or Services for Consideration while conducting Business in the State, where no Tax is due and no Input Tax may be recovered, except according to the provisions of this Decree-Law."
+                },
+                {
+                  "ref": "T01C00A01CL27",
+                  "name": "Taxable Supply",
+                  "content": "A supply of Goods or Services for a Consideration by a Person conducting Business in the State, and does not include Exempt Supply."
+                },
+                {
+                  "ref": "T01C00A01CL28",
+                  "name": "Deemed Supply",
+                  "content": "Anything considered as a supply and treated as a Taxable Supply according to the instances stipulated in this Decree-Law."
+                },
+                {
+                  "ref": "T01C00A01CL29",
+                  "name": "Input Tax",
+                  "content": "Tax paid by a Person or due from him when Goods or Services are supplied to him, or when conducting an Import."
+                },
+                {
+                  "ref": "T01C00A01CL30",
+                  "name": "Output Tax",
+                  "content": "Tax charged on a Taxable Supply and any supply considered as a Taxable Supply."
+                },
+                {
+                  "ref": "T01C00A01CL31",
+                  "name": "Recoverable Tax",
+                  "content": "Amounts that were paid and may be returned by the Authority to the Taxpayer pursuant to the provisions of this Decree-Law."
+                },
+                {
+                  "ref": "T01C00A01CL32",
+                  "name": "Due Tax",
+                  "content": "Tax that is calculated and charged pursuant to this Decree-Law."
+                },
+                {
+                  "ref": "T01C00A01CL33",
+                  "name": "Payable Tax",
+                  "content": "Tax that is due for payment to the Authority."
+                },
+                {
+                  "ref": "T01C00A01CL34",
+                  "name": "Tax Period",
+                  "content": "A specific period of time for which the Payable Tax shall be calculated and paid."
+                },
+                {
+                  "ref": "T01C00A01CL35",
+                  "name": "Tax Invoice",
+                  "content": "A written or electronic document in which the occurance of any amendment to a Taxable Supply that reduces or cancels the same is recorded and the details pertaining to it."
+                },
+                {
+                  "ref": "T01C00A01CL36",
+                  "name": "Tax Credit Note",
+                  "content": "A written or electronic document in which the occurance of any amendment to a Taxable Supply that reduces or cancels the same is recorded and the details pertaining to it."
+                },
+                {
+                  "ref": "T01C00A01CL37",
+                  "name": "Government Entities",
+                  "content": "Federal and local ministries, government departments, government agencies, authorities and public institutions in the State."
+                },
+                {
+                  "ref": "T01C00A01CL38",
+                  "name": "Charities:",
+                  "content": "A written or electronic document in which the occurance of a Taxable Supply is recorded with details pertaining to it."
+                },
+                {
+                  "ref": "T01C00A01CL39",
+                  "name": "Mandatory Registration Threshold",
+                  "content": "An amount specified in the Executive Regulation of this Decree-Law; if exceeded by the value of Taxable Supplies or is anticipated to be exceeded, the supplier shall apply for Tax Registration."
+                },
+                {
+                  "ref": "T01C00A01CL40",
+                  "name": "Voluntary Registration Threshold",
+                  "content": "An amount specified in the Executive Regulation of this Decree-Law; if exceeded by the value of Taxable Supplies or taxable expenses or is anticipated to be exceeded, the supplier may apply for Tax Registration."
+                },
+                {
+                  "ref": "T01C00A01CL41",
+                  "name": "Transport-related Services",
+                  "content": "Shipment, packaging and securing cargo, preparation of Customs documents, container management, loading, unloading, storing and moving of Goods, or any another closely related services or services that are necessary to conduct the transportation services."
+                },
+                {
+                  "ref": "T01C00A01CL42",
+                  "name": "Place of Establishment",
+                  "content": "The place where a Business is legally established in a country pursuant to the decision of its establishment, or in which significant management decisions are taken and central management functions are conducted."
+                },
+                {
+                  "ref": "T01C00A01CL43",
+                  "name": "Fixed Establishment",
+                  "content": "Any fixed place of business, other than the Place of Establishment, in which the Person conducts his business regularly or permanently and where sufficient human and technology resources exist to enable the Person to supply or acquire Goods or Services, including the Person’s branches."
+                },
+                {
+                  "ref": "T01C00A01CL44",
+                  "name": "Place of Residence",
+                  "content": "The place where a Person has a Place of Establishment or Fixed Establishment, in accordance with the provisions of this Decree-Law."
+                },
+                {
+                  "ref": "T01C00A01CL45",
+                  "name": "Non-Resident",
+                  "content": "Any person who does not own a Place of Establishment or Fixed Establishment in the State and usually does not reside in the State."
+                },
+                {
+                  "ref": "T01C00A01CL46",
+                  "name": "Related Parties",
+                  "content": "Two or more Persons who not separated on the economic, financial or regulatory level, where one can control the others either by Law, or through the acquisition of shares or voting rights."
+                },
+                {
+                  "ref": "T01C00A01CL47",
+                  "name": "Customs Legislation",
+                  "content": "Federal and local legislation that regulate customs in the State."
+                },
+                {
+                  "ref": "T01C00A01CL48",
+                  "name": "Designated Zone",
+                  "content": "Any area specified by a Cabinet Decision issued at the suggestion of the Minister, as a Designated Zone for the purpose of this Decree-Law."
+                },
+                {
+                  "ref": "T01C00A01CL49",
+                  "name": "Export",
+                  "content": "Goods departing the State or the provision of Services to a Person whose Place of Establishment or Fixed Establishment is outside the State."
+                },
+                {
+                  "ref": "T01C00A01CL50",
+                  "name": "Voucher",
+                  "content": "Any instrument that gives the right to receive Goods or Services against the value stated thereon or the right to receive a discount on the price of the Goods or Services. Vouchers do not include postage stamps issued by the Emirates Post Group."
+                },
+                {
+                  "ref": "T01C00A01CL51",
+                  "name": "Activities conducted with Sovereign Capacity",
+                  "content": "Activities conducted by Government Entities in their sole competent capacity, with or without Consideration."
+                },
+                {
+                  "ref": "T01C00A01CL52",
+                  "name": "Capital Assets",
+                  "content": "Business assets designated for long-term use."
+                },
+                {
+                  "ref": "T01C00A01CL53",
+                  "name": "Capital Assets Scheme",
+                  "content": "A scheme whereby the initially recovered Input Tax is adjusted based on the actual use during a specific period."
+                },
+                {
+                  "ref": "T01C00A01CL54",
+                  "name": "Administrative Penalties",
+                  "content": "Amounts imposed upon a Person by the Authority for breaching the provisions of this Decree-Law or Federal Law No. (7) of 2017 on Tax Procedures."
+                },
+                {
+                  "ref": "T01C00A01CL55",
+                  "name": "Administrative Penalties Assessment",
+                  "content": "Amounts imposed upon a Person by the Authority for breaching the provisions of this Decree-Law or Federal Law No. (7) of 2017 on Tax Procedures."
+                },
+                {
+                  "ref": "T01C00A01CL56",
+                  "name": "Excise Tax",
+                  "content": "A tax imposed on specific Goods."
+                },
+                {
+                  "ref": "T01C00A01CL57",
+                  "name": "Tax Group",
+                  "content": "Two or more Persons registered with the Authority for Tax purposes as a single taxable person in accordance with the provisions of this Decree-Law."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "T02",
+      "name": "Title 2",
+      "description": "Tax Scope and Rate",
+      "chapters": [
+        {
+          "ref": "T02C00",
+          "name": "",
+          "description": "",
+          "articles": [
+            {
+              "ref": "T02C00A02",
+              "name": "Article (2) - Scope of Tax",
+              "content": "Tax shall be imposed on:",
+              "clauses": [
+                {
+                  "ref": "T02C00A02CL01",
+                  "name": "",
+                  "content": "Every Taxable Supply and Deemed Supply made by the Taxable Person."
+                },
+                {
+                  "ref": "T02C00A02CL02",
+                  "name": "",
+                  "content": "Import of Concerned Goods except as specified in the Executive Regulation of this Decree-Law."
+                }
+              ]
+            },
+            {
+              "ref": "T02C00A03",
+              "name": "Article (3) - Tax Rate",
+              "content": "Without prejudice to the provisions of Title Six of this Decree-Law, a standard rate of 5% shall be imposed on any supply or Import pursuant to Article (2) of this Decree-Law on the value of the supply or Import specified in the provisions of this Decree-Law.",
+              "clauses": []
+            },
+            {
+              "ref": "T02C00A04",
+              "name": "Article (4) - Responsibility for Tax",
+              "content": "The Tax imposed shall be the responsibility of the following:",
+              "clauses": [
+                {
+                  "ref": "T02C00A04CL01",
+                  "name": "",
+                  "content": "A Taxable Person who makes any supply stipulated in <LNKS>T02C00A02CL01<LNKC>Clause (1) of Article (2)<LNKE> of this Decree-Law."
+                },
+                {
+                  "ref": "T02C00A04CL02",
+                  "name": "",
+                  "content": "The Importer of Concerned Goods."
+                },
+                {
+                  "ref": "T02C00A04CL03",
+                  "name": "",
+                  "content": "The Registrant who acquires Goods as stated in Clause (3) of Article (48) of this Decree-Law."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "T03",
+      "name": "Title 3",
+      "description": "Supply",
+      "chapters": [
+        {
+          "ref": "T03C01",
+          "name": "Chapter 1",
+          "description": "Supply of Goods and Services",
+          "articles": [
+            {
+              "ref": "T03C01A05",
+              "name": "Article (5) - Supply of Goods",
+              "content": "The following shall be considered a supply of Goods:",
+              "clauses": [
+                {
+                  "ref": "T03C01A05CL01",
+                  "name": "",
+                  "content": "Transfer of ownership of the Goods or the right to use them to another Person according to what is specified in the Executive Regulation of this Decree-Law."
+                },
+                {
+                  "ref": "T03C01A05CL02",
+                  "name": "",
+                  "content": "Entry into a contract between two parties entailing the transfer of Goods at a later time, pursuant to the conditions specified in the Executive Regulation of this Decree-Law."
+                }
+              ]
+            },
+            {
+              "ref": "T03C01A06",
+              "name": "Article (6) - Supply of Services",
+              "content": "A supply of Services shall be every supply that is not considered a supply of Goods, including any provision of Services specified in the Executive Regulation of this Decree-Law.",
+              "clauses": []
+            },
+            {
+              "ref": "T03C01A07",
+              "name": "Article (7) - Supply in Special Cases",
+              "content": "As an exception to what is stated in Articles (5) and (6) of this Decree-Law, the following shall not be considered a supply:",
+              "clauses": [
+                {
+                  "ref": "T03C01A07CL01",
+                  "name": "",
+                  "content": "The sale or issuance of any Voucher unless the received Consideration exceeds its advertised monetary value, as specified in the Executive Regulation of this Decree-Law."
+                },
+                {
+                  "ref": "T03C01A07CL02",
+                  "name": "",
+                  "content": "The transfer of whole or an independent part of a Business from a Person to a Taxable Person for the purposes of continuing the Business that was transferred."
+                }
+              ]
+            },
+            {
+              "ref": "T03C01A08",
+              "name": "Article (8) - Supply of more than one component",
+              "content": "The Executive Regulation of this Decree-Law shall specify the conditions for treating a supply made of more than one component for one price, whether such components are Goods or Services or both.",
+              "clauses": []
+            },
+            {
+              "ref": "T03C01A09",
+              "name": "Article (9) - Supply via Agent",
+              "content": "As an exception to what is stated in Articles <LNKS>T03C01A05<LNKC>(5)<LNKE> and <LNKS>T03C01A06<LNKC>(6)<LNKE> of this Decree-Law, the following shall not be considered a supply:",
+              "clauses": [
+                {
+                  "ref": "T03C01A09CL01",
+                  "name": "",
+                  "content": "The Supply of Goods and Services through an agent acting in the name of and on behalf of a principal is considered to be a supply by the principal and for his benefit."
+                },
+                {
+                  "ref": "T03C01A09CL02",
+                  "name": "",
+                  "content": "The Supply of Goods and Services through an agent acting in his name is considered to be a direct supply by the agent and for his benefit."
+                }
+              ]
+            },
+            {
+              "ref": "T03C01A10",
+              "name": "Article (10) - Supply by Government Enitites",
+              "content": "As an exception to what is stated in Articles <LNKS>T03C01A05<LNKC>(5)<LNKE> and <LNKS>T03C01A06<LNKC>(6)<LNKE> of this Decree-Law, the following shall not be considered a supply:",
+              "clauses": [
+                {
+                  "ref": "T03C01A10CL01",
+                  "name": "",
+                  "content": "A Government Entity is regarded as making a supply in the course of business in the following cases:",
+                  "paragraphs": [
+                    {
+                      "ref": "T01C01A10CL01PA",
+                      "name": "",
+                      "content": "If its activities are conducted in a non-sovereign Capacity."
+                    },
+                    {
+                      "ref": "T01C01A10CL01PB",
+                      "name": "",
+                      "content": "If its activities are in competition with the private sector."
+                    }
+                  ]
+                },
+                {
+                  "ref": "T03C01A10CL02",
+                  "name": "",
+                  "content": "A Cabinet Decision shall be issued at the suggestion of the Minister determining the Government Entities and their activities that are considered as conducted in a Sovereign Capacity and instances where its activities are considered not in competition with the private sector."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "T03C02",
+          "name": "Chapter 2",
+          "description": "Deemed Supply",
+          "articles": [
+            {
+              "ref": "T03C02A11",
+              "name": "Article (11) - The Cases of Deemed Supply",
+              "content": "The following cases shall be considered as Deemed Supply:",
+              "clauses": [
+                {
+                  "ref": "T03C02A11CL01",
+                  "name": "",
+                  "content": "A supply of Goods or Services, which constituted the whole assets of a Taxable Person or a part thereof, but are no longer considered to be as such, provided that the supply was made without Consideration."
+                },
+                {
+                  "ref": "T03C02A11CL02",
+                  "name": "",
+                  "content": "The transfer by a Taxable Person of Goods that constituted a part of his business assets from the State to another Implementing State, or from the Taxable Person’s business in an Implementing State to his Business in the State, except in the case where such transfer:",
+                  "paragraphs": [
+                    {
+                      "ref": "T03C02A11CL02PA",
+                      "name": "",
+                      "content": "Is considered as temporary under the Customs Legislation."
+                    },
+                    {
+                      "ref": "T03C02A11CL02PB",
+                      "name": "",
+                      "content": "Is made as part of another Taxable Supply of these Goods."
+                    }
+                  ]
+                },
+                {
+                  "ref": "T03C02A11CL03",
+                  "name": "",
+                  "content": "A supply of Goods or Services for which Input Tax may be recovered but the Goods or Services were used, in part or whole, for purposes other than Business, and such supply shall be considered as deemed only to the extent of the use for non-business purposes."
+                },
+                {
+                  "ref": "T03C02A11CL04",
+                  "name": "",
+                  "content": "Goods and Services that a Taxable Person owns at the date of Tax Deregistration."
+                }
+              ]
+            },
+            {
+              "ref": "T03C02A12",
+              "name": "Article (12) - Exceptions for Deemed Supply",
+              "content": "A supply is not considered as deemed in the following cases:",
+              "clauses": [
+                {
+                  "ref": "T03C02A12CL01",
+                  "name": "",
+                  "content": "If no Input Tax was recovered for the related Goods and Services."
+                },
+                {
+                  "ref": "T03C02A12CL02",
+                  "name": "",
+                  "content": "If the supply is an Exempt Supply."
+                },
+                {
+                  "ref": "T03C02A12CL03",
+                  "name": "",
+                  "content": "If the recovered Input Tax has been adjusted for the Goods and Services pursuant to the Capital Assets Scheme."
+                },
+                {
+                  "ref": "T03C02A12CL04",
+                  "name": "",
+                  "content": "If the value of the supply of the Goods, for each Recipient of Goods within a 12-month period,does not exceed the amount specified in the Executive Regulation of this Decree-Law, and the Goods were supplied as samples or commercial gifts."
+                },
+                {
+                  "ref": "T03C02A12CL05",
+                  "name": "",
+                  "content": "If the total Output Tax due for all the Deemed Supplies per Person for a 12-month period is less than the amount specified in the Executive Regulation of this Decree-Law."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

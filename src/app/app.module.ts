@@ -1,3 +1,14 @@
+import { localJsonService } from './../providers/localdb';
+import { VatdetailPageModule } from './../pages/vatdetail/vatdetail.module';
+
+import { InAppBrowser} from '@ionic-native/in-app-browser';
+import { LawPageModule } from './../pages/law/law.module';
+import { NewsPageModule } from './../pages/news/news.module';
+import { DashboardPageModule } from './../pages/dashboard/dashboard.module';
+
+import { ComponentsModule } from './../components/components.module';
+import { PipesModule } from './../pipes/pipes.module';
+
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule, Http } from '@angular/http';
@@ -21,6 +32,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { WelcomePage } from '../pages/welcome/welcome';
 
+import { Firebase } from './../providers/firebase';
 import { Api } from '../providers/api';
 import { Items } from '../mocks/providers/items';
 import { Settings } from '../providers/settings';
@@ -71,11 +83,17 @@ export function provideSettings(storage: Storage) {
     SignupPage,
     TabsPage,
     TutorialPage,
-    WelcomePage
+    WelcomePage,
   ],
   imports: [
     BrowserModule,
     HttpModule,
+    ComponentsModule,
+    PipesModule,
+    NewsPageModule,
+    DashboardPageModule,
+    LawPageModule,
+    VatdetailPageModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -102,15 +120,18 @@ export function provideSettings(storage: Storage) {
     SignupPage,
     TabsPage,
     TutorialPage,
-    WelcomePage
+    WelcomePage,
   ],
   providers: [
+    Firebase,
     Api,
     Items,
     User,
     Camera,
     GoogleMaps,
     SplashScreen,
+    InAppBrowser,
+    localJsonService,
     StatusBar,
     { provide: Settings, useFactory: provideSettings, deps: [Storage] },
     // Keep this to enable Ionic's runtime error handling during development
