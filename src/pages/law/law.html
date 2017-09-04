@@ -18,7 +18,7 @@
       <h5>{{title.name}} - {{title.description}}</h5>
       <div *ngFor="let chapter of title.chapters">
           <h6 *ngIf = "chapter.description.length > 0">{{chapter.description}}</h6>
-          <vat-article *ngFor="let article of chapter.articles" [article]="article"></vat-article>
+          <vat-article *ngFor="let article of chapter.articles" [definitions] = "definitions" [article]="article"></vat-article>
           <br>
       </div>
       <br>

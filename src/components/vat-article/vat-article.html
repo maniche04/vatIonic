@@ -11,7 +11,13 @@
         {{clause.ref.substring(clause.ref.length-2,clause.ref.length)}}. {{clause.name}} <span [innerHTML]="getDynamic(clause.content) | safeHtml"></span>
         <div class = "paragraph" *ngFor="let para of clause.paragraphs">
           {{para.ref.substring(para.ref.length-1,para.ref.length).toLowerCase()}}. <span [innerHTML]="getDynamic(para.content)  | safeHtml"></span>
+          <div class ="subparagraph" *ngFor="let subpara of para.subparagraphs">
+            {{subpara.ref.substring(subpara.ref.length-2,subpara.ref.length).toLowerCase()}}. <span [innerHTML]="getDynamic(subpara.content)  | safeHtml"></span>
+          </div>
         </div>
+    </div>
+    <div class = "postcontent">
+      {{article.postcontent}}
     </div>
   </ion-card-content>
 </ion-card>

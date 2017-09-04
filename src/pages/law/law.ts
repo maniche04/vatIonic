@@ -21,6 +21,8 @@ export class LawPage {
     publishedDate: ""
   }
 
+  public definitions = {}
+
   constructor(public localJson: localJsonService,public firebase: Firebase,public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -30,6 +32,7 @@ export class LawPage {
     // .map(res => this.vatlaw = res.json()).subscribe();
     this.localJson.getData('vat.json').subscribe((data) => {
       this.vatlaw = data;
+      this.definitions = data.titles[0].chapters[0].articles[0].clauses;
     });
   }
 

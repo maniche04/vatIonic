@@ -21,12 +21,17 @@ export class VatdetailPage {
   };
 
   constructor(private localdb:localJsonService,public navCtrl: NavController, public navParams: NavParams) {
+    this.detailCode = '';
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad VatdetailPage');
+
     this.detailCode = this.navParams.get('code');
-    this.parseValue();
+    if (this.detailCode.substring(0,3) == 'T01') {
+      this.detailArticle.clauses = this.navParams.get('definitions');
+    } else {
+      this.parseValue();
+    }
   }
   //T01C00A01CL01PASP1
 
@@ -37,16 +42,16 @@ export class VatdetailPage {
       var titlecode = Number(this.detailCode.substring(1,3));
       var chaptercode = Number(this.detailCode.substring(4,6));
       var articleref = this.detailCode.substring(0,9);
-      console.log(articleref);
+
       titlecode = titlecode - 1;
       if (chaptercode > 0) {
         chaptercode = chaptercode -1;
       }
       this.localdb.getData('vat.json').subscribe((data) => {
-        console.log(data.titles[titlecode].chapters[chaptercode])
+
         var chapters = data.titles[titlecode].chapters[chaptercode];
         for (let art of chapters.articles) {
-          console.log(art.ref + "|" + articleref)
+
           if (art.ref == articleref) {
             this.detailArticle = art;
           }

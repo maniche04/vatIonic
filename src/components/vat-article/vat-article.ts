@@ -18,6 +18,7 @@ export class VatArticleComponent {
   public istoggle: number;
 
   @Input('article') article: any;
+  @Input('definitions') definitions: any;
 
   constructor(private elRef:ElementRef, private cdRef:ChangeDetectorRef,public popoverCtrl: PopoverController) {
     console.log('Hello VatArticleComponent Component');
@@ -36,26 +37,47 @@ export class VatArticleComponent {
     var el = this.elRef.nativeElement.querySelectorAll('.reflink');
     if (el) {
       for (let e of el) {
-        e.addEventListener('click', this.onClick.bind(this));
+        e.addEventListener('click', this.launchRef.bind(this));
+      }
+    }
+
+    var el2 = this.elRef.nativeElement.querySelectorAll('.deflink');
+    if (el2) {
+      for (let e of el2) {
+        e.addEventListener('click', this.launchDef.bind(this));
       }
     }
 
   }
-  onClick(event) {
+
+  launchRef(event) {
     var target = event.target || event.srcElement || event.currentTarget
     var idAttr = target.attributes.link;
-    this.presentPopover(idAttr.nodeValue);
+    this.presentPopover(event,idAttr.nodeValue);
   }
 
-  presentPopover(data) {
-    let popover = this.popoverCtrl.create(VatdetailPage,{'code':data});
-    popover.present();
+  launchDef(event) {
+    var target = event.target || event.srcElement || event.currentTarget
+    var idAttr = target.attributes.link;
+    this.presentPopover(event, idAttr.nodeValue);
+  }
+
+  presentPopover(myEvent, data) {
+    let popover = this.popoverCtrl.create(VatdetailPage,{'code':data, 'definitions':this.definitions});
+    popover.present({
+      ev:myEvent
+    });
   }
 
   getDynamic(html) {
     html = html.toString().split("<LNKS>").join("<span class='reflink' link='");
     html = html.split("<LNKC>").join("'>");
     html = html.split("<LNKE>").join("</span>");
+
+    for (let def of this.definitions) {
+      html = html.split("[" + def.name + "]").join("<span class='deflink' link='" + def.ref + "'>" + def.name + "</span>");
+    }
+
     return html;
   }
 

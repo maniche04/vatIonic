@@ -4,17 +4,32 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-card>
+
+
+  <div *ngIf="detailCode.substring(0,3) != 'T01'">
     <ion-card-header>
         {{detailArticle.name}}
     </ion-card-header>
     <ion-card-content>
       {{detailArticle.content}}
       <div [class.highlight]="clause.ref==detailCode" class="clause" *ngFor="let clause of detailArticle.clauses">
-          {{clause.ref.substring(clause.ref.length-2,clause.ref.length)}}. {{clause.name}} <span [innerHTML]="clause.content"></span>
+          {{clause.ref.substring(clause.ref.length-2,clause.ref.length)}}. {{clause.name}} <span [innerHTML]='clause.content'></span>
           <div class = "paragraph" *ngFor="let para of clause.paragraphs">
-            {{para.ref.substring(para.ref.length-1,para.ref.length).toLowerCase()}}. <span [innerHTML]="para.content"></span>
+            {{para.ref.substring(para.ref.length-1,para.ref.length).toLowerCase()}}. <span [innerHTML]='para.content'></span>
           </div>
       </div>
     </ion-card-content>
-  </ion-card>
+  </div>
+
+  <div *ngIf="detailCode.substring(0,3) == 'T01'">
+    <div *ngFor="let clause of detailArticle.clauses">
+        <ion-card-header *ngIf="clause.ref==detailCode">
+            {{clause.name}}
+        </ion-card-header>
+        <ion-card-content *ngIf="clause.ref==detailCode">
+            <div class="clause">
+                {{clause.content}}
+            </div>
+        </ion-card-content>
+    </div>
+  </div>
