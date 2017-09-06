@@ -1135,7 +1135,7 @@
                 {
                   "ref": "T05C04A34CL03",
                   "name": "",
-                  "content": "For [Services] received by the [Taxable Person] who is obligated to calculate the Tax in accordance with Clause (1) of Article (48) of this Decree-Law, the value of the supply shall be equal to the market value of the consideration without addition of the Tax on that supply."
+                  "content": "For [Services] received by the [Taxable Person] who is obligated to calculate the Tax in accordance with <LNKS>T06C04A48CL01<LNKC>Clause (1) of Article (48)<LNKE> of this Decree-Law, the value of the supply shall be equal to the market value of the consideration without addition of the Tax on that supply."
                 },
                 {
                   "ref": "T05C04A34CL04",
@@ -1155,9 +1155,9 @@
                   "content": "The customs value pursuant to [Customs Legislation], including the value of insurance, freight and any customs fees and [Excise Tax] paid on the [Import] of the [Goods]. Tax shall not be included in the Value of the Supply."
                 },
                 {
-                  "ref": "T05C04A35CL01",
+                  "ref": "T05C04A35CL02",
                   "name": "",
-                  "content": "If it is not possible to determine the value pursuant to Clause (1) of this Article, the value shall be determined based on alternate valuation rules stated in the applicable [Customs Legislation]."
+                  "content": "If it is not possible to determine the value pursuant to <LNKS>T05C04A35CL01<LNKC>Clause (1)<LNKE> of this Article, the value shall be determined based on alternate valuation rules stated in the applicable [Customs Legislation]."
                 }
               ]
             },
@@ -1287,7 +1287,7 @@
                 {
                   "ref": "T06C01A45CL05",
                   "name": "",
-                  "content": "Supply of [Goods] and [Services] related to the supply of the means of transport mentioned in Clause (4) of this Article and which are designed for the operation, repair, maintenance or conversion of these means of transport."
+                  "content": "Supply of [Goods] and [Services] related to the supply of the means of transport mentioned in <LNKS>T06C01A45CL05<LNKC>Clause (4)<LNKE> of this Article and which are designed for the operation, repair, maintenance or conversion of these means of transport."
                 },
                 {
                   "ref": "T06C01A45CL06",
@@ -1297,7 +1297,7 @@
                 {
                   "ref": "T06C01A45CL07",
                   "name": "",
-                  "content": "Supply of [Goods] and [Services] related to the transfer of [Goods] or passengers aboard land, air or sea means of transport pursuant to Clauses (2) and (3) of this Article, designated for consumption on board; or anything consumed by any means of transport, any installations or addition thereto or any other use during transportation."
+                  "content": "Supply of [Goods] and [Services] related to the transfer of [Goods] or passengers aboard land, air or sea means of transport pursuant to Clauses <LNKS>T06C01A45CL02<LNKC>(2)<LNKE> and <LNKS>T06C01A45CL03<LNKC>(3)<LNKE> of this Article, designated for consumption on board; or anything consumed by any means of transport, any installations or addition thereto or any other use during transportation."
                 },
                 {
                   "ref": "T06C01A45CL08",
@@ -1357,7 +1357,7 @@
                 {
                   "ref": "T06C02A46CL02",
                   "name": "",
-                  "content": "Supply of residential buildings through sale or lease, other than that which is zero-rated according to Clauses (9) and (11) of Article (45) of this Decree-Law."
+                  "content": "Supply of residential buildings through sale or lease, other than that which is zero-rated according to Clauses <LNKS>T06C01A45CL09<LNKC>(9)<LNKE> and <LNKS>T06C01A45CL11<LNKC>(11)<LNKE> of Article (45) of this Decree-Law."
                 },
                 {
                   "ref": "T06C02A46CL03",
@@ -1404,7 +1404,7 @@
                 {
                   "ref": "T06C04A48CL02",
                   "name": "",
-                  "content": "As an exception to Clause (1) of this Article, in case the final destination of the [Goods] when entering the [State] is another Implementing State, the [Taxable Person] shall pay the [Due Tax] on [Import] of Concerned Goods pursuant to the mechanism specified by the Executive Regulation of this Decree-Law."
+                  "content": "As an exception to <LNKS>T06C04A48CL01<LNKC>Clause (1)<LNKE> of this Article, in case the final destination of the [Goods] when entering the [State] is another Implementing State, the [Taxable Person] shall pay the [Due Tax] on [Import] of Concerned Goods pursuant to the mechanism specified by the Executive Regulation of this Decree-Law."
                 },
                 {
                   "ref": "T06C04A48CL03",
@@ -1426,7 +1426,7 @@
                 {
                   "ref": "T06C04A48CL04",
                   "name": "",
-                  "content": "The provisions of Clause (3) of this Article shall not apply in any of the following situations:",
+                  "content": "The provisions of <LNKS>T06C04A48CL03<LNKC>Clause (3)<LNKE> of this Article shall not apply in any of the following situations:",
                   "paragraphs": [
                     {
                       "ref": "T06C04A48CL04PA",
@@ -1441,19 +1441,19 @@
                     {
                       "ref": "T06C04A48CL04PC",
                       "name": "",
-                      "content": "Where the [Taxable Supply] would be subject to Tax at the rate of 0% in accordance with Clause (1) of Article (45) of this Decree-Law."
+                      "content": "Where the [Taxable Supply] would be subject to Tax at the rate of 0% in accordance with <LNKS>T06C01A45CL01<LNKC>Clause (1)<LNKE> of Article (45) of this Decree-Law."
                     },
                     {
                       "ref": "T06C04A48CL04PD",
                       "name": "",
-                      "content": "Where the [Taxable Supply] includes a supply of [Goods] or [Services] other than the [Goods] referred to in Clause (3) of this Article."
+                      "content": "Where the [Taxable Supply] includes a supply of [Goods] or [Services] other than the [Goods] referred to in <LNKS>T06C04A48CL03<LNKC>Clause (3)<LNKE> of this Article."
                     }
                   ]
                 },
                 {
                   "ref": "T06C04A48CL05",
                   "name": "",
-                  "content": "Where a [Recipient of Goods]  of any crude or refined oil, unprocessed or processed natural gas, or any hydrocarbons confirms in writing to the supplier that he is a [Registrant]  for the purposes of applying Clause (3) of this Article, the following shall appl:",
+                  "content": "Where a [Recipient of Goods]  of any crude or refined oil, unprocessed or processed natural gas, or any hydrocarbons confirms in writing to the supplier that he is a [Registrant]  for the purposes of applying <LNKS>T06C04A48CL03<LNKC>Clause (3)<LNKE> of this Article, the following shall appl:",
                   "paragraphs": [
                     {
                       "ref": "T06C04A48CL05PA",
@@ -1470,7 +1470,7 @@
                 {
                   "ref": "T06C04A48CL06",
                   "name": "",
-                  "content": "If the supplier mentioned in paragraph (a) of Clause (5) of this Article is supposed to be aware that the [Recipient of Goods]  was not registered at the Date of Supply, the supplier and the [Recipient of Goods]  shall be jointly and severely liable for any [Due Tax] and relevant penalties in respect of the supply."
+                  "content": "If the supplier mentioned in paragraph (a) of <LNKS>T06C04A48CL05<LNKC>Clause (5)<LNKE> of this Article is supposed to be aware that the [Recipient of Goods]  was not registered at the Date of Supply, the supplier and the [Recipient of Goods]  shall be jointly and severely liable for any [Due Tax] and relevant penalties in respect of the supply."
                 },
                 {
                   "ref": "T06C04A48CL07",
@@ -1480,12 +1480,12 @@
                     {
                       "ref": "T06C04A48CL07PA",
                       "name": "",
-                      "content": "Conditions and instances where the mechanism in Clause (1) of this Article applies."
+                      "content": "Conditions and instances where the mechanism in <LNKS>T06C04A48CL01<LNKC>Clause (1)<LNKE> of this Article applies."
                     },
                     {
                       "ref": "T06C04A48CL07PB",
                       "name": "",
-                      "content": "Additional obligations related to record keeping for Tax calculated according to the mechanism in Clause (1) of this Article."
+                      "content": "Additional obligations related to record keeping for Tax calculated according to the mechanism in <LNKS>T06C04A48CL01<LNKC>Clause (1)<LNKE> of this Article."
                     }
                   ]
                 }
@@ -1593,7 +1593,7 @@
                 {
                   "ref": "T07C01A54CL04",
                   "name": "",
-                  "content": "A [Taxable Person] shall not be entitled to recover any [Input Tax] in respect of Tax paid in accordance with Clause (2) of Article (48) of this Decree-Law."
+                  "content": "A [Taxable Person] shall not be entitled to recover any [Input Tax] in respect of Tax paid in accordance with <LNKS>T06C04A48CL02<LNKC>Clause (2) of Article (48)<LNKE> of this Decree-Law."
                 },
                 {
                   "ref": "T07C01A54CL05",
