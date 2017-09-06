@@ -17,7 +17,8 @@ export class VatdetailPage {
 
   public detailCode: String;
   public detailArticle = {
-    clauses:""
+    clauses:"",
+    content:""
   };
 
   constructor(private localdb:localJsonService,public navCtrl: NavController, public navParams: NavParams) {
@@ -64,4 +65,14 @@ export class VatdetailPage {
     }
   }
 
+  cleanContent(content) {
+    if (content != null) {
+      content = content.split('[').join('');
+      content = content.split(']').join('');
+      content = content.toString().split("<LNKS>").join("<span class='hidden' link='");
+      content = content.split("<LNKC>").join("'>");
+      content = content.split("<LNKE>").join("</span>");
+      return content;
+    }
+  }
 }

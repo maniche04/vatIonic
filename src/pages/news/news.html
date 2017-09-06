@@ -12,5 +12,8 @@
 
 
 <ion-content padding>
+  <div *ngIf="newsbox.length == 0">
+    Loading...
+  </div>
   <news-article *ngFor="let news of newsbox | orderBy: 'pubDate' :true" [news]="news"></news-article>
 </ion-content>

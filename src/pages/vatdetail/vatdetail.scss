@@ -29,4 +29,10 @@ page-vatdetail {
   .highlight {
     background-color:lightgoldenrodyellow;
   }
+
+  ion-card-content {
+    max-height:300px;
+    text-overflow: scroll;
+  }
+
 }

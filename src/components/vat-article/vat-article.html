@@ -8,7 +8,7 @@
   <ion-card-content *ngIf="istoggle == 1">
     <span [innerHTML]="getDynamic(article.content) | safeHtml"></span>
     <div class="clause" *ngFor="let clause of article.clauses">
-        {{clause.ref.substring(clause.ref.length-2,clause.ref.length)}}. {{clause.name}} <span [innerHTML]="getDynamic(clause.content) | safeHtml"></span>
+        {{clause.ref.substring(clause.ref.length-2,clause.ref.length)}}. <span class="clausename">{{clause.name}}</span> <span [innerHTML]="getDynamic(clause.content) | safeHtml"></span>
         <div class = "paragraph" *ngFor="let para of clause.paragraphs">
           {{para.ref.substring(para.ref.length-1,para.ref.length).toLowerCase()}}. <span [innerHTML]="getDynamic(para.content)  | safeHtml"></span>
           <div class ="subparagraph" *ngFor="let subpara of para.subparagraphs">

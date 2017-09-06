@@ -12,6 +12,9 @@
 
 </ion-header>
 <ion-content padding>
+  <div *ngIf="vatlaw.titles.length == 0">
+    Loading...
+  </div>
   <h2>{{vatlaw.title}}</h2>
   <br>
   <div *ngFor="let title of vatlaw.titles">

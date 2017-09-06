@@ -11,11 +11,11 @@
         {{detailArticle.name}}
     </ion-card-header>
     <ion-card-content>
-      {{detailArticle.content}}
+      <span [innerHTML]='cleanContent(detailArticle.content)'></span>
       <div [class.highlight]="clause.ref==detailCode" class="clause" *ngFor="let clause of detailArticle.clauses">
-          {{clause.ref.substring(clause.ref.length-2,clause.ref.length)}}. {{clause.name}} <span [innerHTML]='clause.content'></span>
+          {{clause.ref.substring(clause.ref.length-2,clause.ref.length)}}. {{clause.name}} <span [innerHTML]='cleanContent(clause.content)'></span>
           <div class = "paragraph" *ngFor="let para of clause.paragraphs">
-            {{para.ref.substring(para.ref.length-1,para.ref.length).toLowerCase()}}. <span [innerHTML]='para.content'></span>
+            {{para.ref.substring(para.ref.length-1,para.ref.length).toLowerCase()}}. <span [innerHTML]='cleanContent(para.content)'></span>
           </div>
       </div>
     </ion-card-content>

@@ -18,7 +18,8 @@ export class LawPage {
 
   public vatlaw  = {
     title: '',
-    publishedDate: ""
+    publishedDate: "",
+    titles: []
   }
 
   public definitions = {}
@@ -30,7 +31,7 @@ export class LawPage {
     console.log('ionViewDidLoad LawPage');
     // this.firebase.get("vat.json")
     // .map(res => this.vatlaw = res.json()).subscribe();
-    this.localJson.getData('vat.json').subscribe((data) => {
+    this.localJson.getData('vat2.json').subscribe((data) => {
       this.vatlaw = data;
       this.definitions = data.titles[0].chapters[0].articles[0].clauses;
     });
