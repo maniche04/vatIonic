@@ -19,6 +19,7 @@ export class VatArticleComponent {
 
   @Input('article') article: any;
   @Input('definitions') definitions: any;
+  @Input('source') source: any;
 
   constructor(private elRef:ElementRef, private cdRef:ChangeDetectorRef,public popoverCtrl: PopoverController) {
     console.log('Hello VatArticleComponent Component');
@@ -63,7 +64,7 @@ export class VatArticleComponent {
   }
 
   presentPopover(myEvent, data) {
-    let popover = this.popoverCtrl.create(VatdetailPage,{'code':data, 'definitions':this.definitions});
+    let popover = this.popoverCtrl.create(VatdetailPage,{'source': this.source, 'code':data, 'definitions':this.definitions});
     popover.present({
       ev:myEvent
     });

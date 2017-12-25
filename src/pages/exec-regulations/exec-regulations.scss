@@ -1,0 +1,22 @@
+page-law {
+  .clause{
+    padding-left:8px;
+  }
+
+  .paragraph{
+    padding-left:16px;
+  }
+
+  .subparagraph{
+    padding-left:24px;
+  }
+
+  ion-card-header {
+    text-overflow:visible;
+    font-style:bold;
+  }
+
+  ion-card-content {
+    font-style:normal;
+  }
+}

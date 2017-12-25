@@ -16,37 +16,15 @@
 // automatically applied to the <body> element in the app.
 
 @font-face {
-  font-family: 'Dubai';
-  src: url('../fonts/DubaiW23-Light.ttf') format('truetype');
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Dubai';
-  src: url('../fonts/DubaiW23-Medium.ttf') format('truetype');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Dubai';
-  src: url('../fonts/DubaiW23-Regular.ttf') format('truetype');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Dubai';
-  src: url('../fonts/DubaiW23-Bold.ttf') format('truetype');
-  font-weight: 700;
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSansRegular.woff') format('woff'), url('../fonts/OpenSansRegular.ttf') format('truetype');
 }
 
 ion-content {
-  font-family: 'Dubai' !important;
+  font-family: 'Open Sans' !important;
 }
 
 ion-buttons, .toolbar-content, .tab-button-text {
-  font-family: 'Dubai' !important;
+  font-family: 'Open Sans' !important;
 }
 
-* {
-  font-family:1.1em;
-}

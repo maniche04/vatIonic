@@ -677,7 +677,7 @@
             },
             {
               "ref": "T04C00A16",
-              "name": "Article (16) - [Tax Registration]  of Governmental Bodies",
+              "name": "Article (16) - Tax Registration  of Governmental Bodies",
               "content": "[Government Entities] which shall be determined in a Cabinet Decision issued under <LNKS>T03C01A10CL02<LNKC>Clause (2) of Article (10)<LNKE> of this Decree-Law, shall apply for [Tax Registration]  and may not be Deregistered unless by a Cabinet Decision at the suggestion of the [Minister].",
               "clauses": []
             },
@@ -706,7 +706,7 @@
             },
             {
               "ref": "T04C00A19",
-              "name": "Article (19) - Calculating the [Tax Registration]  Threshold",
+              "name": "Article (19) - Calculating the Tax Registration  Threshold",
               "content": "To determine whether a [Person] has exceeded the [Mandatory Registration Threshold] and the [Voluntary Registration Threshold], the following shall be calculated:",
               "clauses": [
                 {
@@ -768,7 +768,7 @@
             },
             {
               "ref": "T04C00A24",
-              "name": "Article (24) - Procedures, Controls and Conditions of [Tax Registration]  and De-registration",
+              "name": "Article (24) - Procedures, Controls and Conditions of Tax Registration  and De-registration",
               "content": "The Executive Regulation of this Decree-Law shall determine the procedures, controls and conditions for [Tax Registration] , Tax deregistration and rejection of applications for [Tax Registration]  and Deregistration as stipulated in this Title.",
               "clauses": []
             }
@@ -983,7 +983,7 @@
             },
             {
               "ref": "T05C02A29",
-              "name": "Article (29) - Place of Supply of [Services]",
+              "name": "Article (29) - Place of Supply of Services",
               "content": "The place of supply of [Services] shall be the [Place of Residence] of the Supplier.",
               "clauses": []
             },
@@ -1036,7 +1036,7 @@
             },
             {
               "ref": "T05C02A31",
-              "name": "Article (31) - Place of Supply of Telecommunication and Electronic [Services]",
+              "name": "Article (31) - Place of Supply of Telecommunication and Electronic Services",
               "content": "",
               "clauses": [
                 {
@@ -1211,7 +1211,7 @@
             },
             {
               "ref": "T05C04A42",
-              "name": "Article (42) - Temporary Transfer of [Goods]",
+              "name": "Article (42) - Temporary Transfer of Goods",
               "content": "If [Goods] are transferred temporarily from the domestic market into a [Designated Zone] or outside the [State] for completing the manufacturing or repair in order to re-import them into the [State], the value of the supply when re-Imported shall be the value of the [Services] rendered.",
               "clauses": []
             }
@@ -1255,13 +1255,13 @@
           "articles": [
             {
               "ref": "T06C01A44",
-              "name": "Article (44) - Supply and [Import] Taxable at Zero Rate",
+              "name": "Article (44) - Supply and Import Taxable at Zero Rate",
               "content": "The supply and [Import] of [Goods] and [Services] specified in this Chapter made by a [Taxable Person] shall be a [Taxable Supply] subject to the zero rate.",
               "clauses": []
             },
             {
               "ref": "T06C01A45",
-              "name": "Article (45) - Supply of [Goods] and [Services] that is Subject to Zero Rate",
+              "name": "Article (45) - Supply of Goods and Services that is Subject to Zero Rate",
               "content": "The Zero rate shall apply to the following [Goods] and [Services]:",
               "clauses": [
                 {
@@ -1493,7 +1493,7 @@
             },
             {
               "ref": "T06C04A49",
-              "name": "Article (49) - [Import] of [Concerned Goods]",
+              "name": "Article (49) - Import of Concerned Goods",
               "content": "A person not registered for Tax shall pay [Due Tax] on [Import] of [Concerned Goods] from outside the [Implementing States] on the date of [Import] pursuant to the payment mechanism specified by the Executive Regulation of this Decree-Law.",
               "clauses": []
             }
@@ -1512,7 +1512,7 @@
             },
             {
               "ref": "T06C05A51",
-              "name": "Article (51) - Transfer of [Goods] in Designated Zones",
+              "name": "Article (51) - Transfer of Goods in Designated Zones",
               "content": "A person not registered for Tax shall pay [Due Tax] on [Import] of [Concerned Goods] from outside the [Implementing States] on the date of [Import] pursuant to the payment mechanism specified by the Executive Regulation of this Decree-Law.",
               "clauses": [
                 {
@@ -1555,7 +1555,7 @@
             },
             {
               "ref": "T07C01A54",
-              "name": "Article (54) - Recoverable [Input Tax]",
+              "name": "Article (54) - Recoverable Input Tax",
               "content": "",
               "clauses": [
                 {
@@ -1604,7 +1604,7 @@
             },
             {
               "ref": "T07C01A55",
-              "name": "Article (55) - Recovery of Recoverable [Input Tax] in the Tax Period",
+              "name": "Article (55) - Recovery of Recoverable Input Tax in the Tax Period",
               "content": "",
               "clauses": [
                 {
@@ -1615,7 +1615,7 @@
                     {
                       "ref": "T07C01A55CL01PA",
                       "name": "",
-                      "content": "The [Taxable Person] receives and keeps the [Tax Invoice] as per the provisions of this Decree-Law, provided that the [Tax Invoice] includes the details of the supply related to such [Input Tax], or keeps any other document pursuant to Clause (3) of Article (65) of this Decree-Law in relation to the Supply or [Import] on which [Input Tax] was paid."
+                      "content": "The [Taxable Person] receives and keeps the [Tax Invoice] as per the provisions of this Decree-Law, provided that the [Tax Invoice] includes the details of the supply related to such [Input Tax], or keeps any other document pursuant to <LKNS>T07C05A65CL03<LNKC>Clause (3) of Article (65)<LNKE> of this Decree-Law in relation to the Supply or [Import] on which [Input Tax] was paid."
                     },
                     {
                       "ref": "T07C01A55CL01PA",
@@ -1627,13 +1627,13 @@
                 {
                   "ref": "T07C01A55CL02",
                   "name": "",
-                  "content": "If the [Taxable Person] entitled to recover the [Input Tax] fails to do so during the [Tax Period] in which the conditions stated in Clause (1) of this Article have been satisfied, he may include the [Recoverable Tax] in the [Tax Return]  for the subsequent [Tax Period]."
+                  "content": "If the [Taxable Person] entitled to recover the [Input Tax] fails to do so during the [Tax Period] in which the conditions stated in <LNKS>T07C01A55CL01<LNKC>Clause (1)<LNKE> of this Article have been satisfied, he may include the [Recoverable Tax] in the [Tax Return]  for the subsequent [Tax Period]."
                 }
               ]
             },
             {
               "ref": "T07C01A56",
-              "name": "Article (56) - [Input Tax] Paid before [Tax Registration] ",
+              "name": "Article (56) - Input Tax Paid before Tax Registration ",
               "content": "",
               "clauses": [
                 {
@@ -1657,7 +1657,7 @@
                 {
                   "ref": "T07C01A56CL02",
                   "name": "",
-                  "content": "As an exception to the provisions of Clause (1) of this Article, [Input Tax] may not be recovered in any of the following instances:",
+                  "content": "As an exception to the provisions of <LNKS>T07C01A56CL01<LNKC>Clause (1)<LNKE> of this Article, [Input Tax] may not be recovered in any of the following instances:",
                   "paragraphs": [
                     {
                       "ref": "T07C01A56CL02PA",
@@ -1705,17 +1705,17 @@
         {
           "ref": "T07C02",
           "name": "Chapter 2",
-          "description": "Apportionment and Adjustment of [Input Tax]",
+          "description": "Apportionment and Adjustment of Input Tax",
           "articles": [
             {
               "ref": "T07C02A58",
-              "name": "Article (58) - Calculating the [Input Tax] that may be Recovered",
+              "name": "Article (58) - Calculating the Input Tax that may be Recovered",
               "content": "The Executive Regulation of this Decree-Law shall specify the method in which the [Input Tax] that may be recovered is calculated, if [Input Tax] is paid for [Goods] or [Services] during a specific [Tax Period] to make supplies that allow recovery under Article (54) and others that do not allow recovery, or for activities conducted that are not in the course of doing the [Business].",
               "clauses": []
             },
             {
               "ref": "T07C02A59",
-              "name": "Article (59) - Conditions and Mechanism of [Input Tax] Adjustment",
+              "name": "Article (59) - Conditions and Mechanism of Input Tax Adjustment",
               "content": "The Executive Regulation of this Decree-Law shall specify the conditions and mechanism for adjusting [Input Tax] in the following cases:",
               "clauses": [
                 {
@@ -1785,7 +1785,7 @@
           "articles": [
             {
               "ref": "T07C04A61",
-              "name": "Article (61) - Instances and Conditions for [Output Tax] Adjustments",
+              "name": "Article (61) - Instances and Conditions for Output Tax Adjustments",
               "content": "",
               "clauses": [
                 {
@@ -1823,7 +1823,7 @@
                 {
                   "ref": "T07C04A61CL02",
                   "name": "",
-                  "content": "Paragraph (e) of Clause (1) of this Article shall not apply where the place of supply was treated by the supplier at the Date of Supply as being subject to Clause (1) of Article (27), but, as a result of a movement of the [Goods], it turned out that it should have been treated as a supply under paragraph (b)(1) of Clause (3) of the same."
+                  "content": "<LKNS>T07C04A61CL01PE<LNKC>Paragraph (e) of Clause (1)<LNKE> of this Article shall not apply where the place of supply was treated by the supplier at the Date of Supply as being subject to <LNKS>T05C02A27CL01<LKNC>Clause (1) of Article (27)<LNKE>, but, as a result of a movement of the [Goods], it turned out that it should have been treated as a supply under <LNKS>T05C02A27CL03PB<LKNC>paragraph (b)(1) of Clause (3)<LNKE> of the same."
                 },
                 {
                   "ref": "T07C04A61CL02",
@@ -1833,12 +1833,12 @@
                     {
                       "ref": "T07C04A61CL02PA",
                       "name": "",
-                      "content": "If the [Output Tax] amount charged on the supply stated in the [Tax Invoice] does not match the Tax that should actually be charged on the supply as a result of any of the events mentioned in Clause (1) of this Article."
+                      "content": "If the [Output Tax] amount charged on the supply stated in the [Tax Invoice] does not match the Tax that should actually be charged on the supply as a result of any of the events mentioned in <LNKS>T07C04A61CL01<LNKC>Clause (1)<LNKE> of this Article."
                     },
                     {
                       "ref": "T07C04A61CL02PB",
                       "name": "",
-                      "content": "If the [Registrant]  submits a [Tax Return]  for the [Tax Period] during which the supply occurred and an amount was incorrectly calculated as being the amount of [Output Tax] due for this supply as the result of any of the events mentioned in Clause (1) of this Article."
+                      "content": "If the [Registrant]  submits a [Tax Return]  for the [Tax Period] during which the supply occurred and an amount was incorrectly calculated as being the amount of [Output Tax] due for this supply as the result of any of the events mentioned in <LNKS>T07C04A61CL01<LNKC>Clause (1)<LNKE> of this Article."
                     }
                   ]
                 }
@@ -1864,7 +1864,7 @@
             {
               "ref": "T07C04A63",
               "name": "Article (63) - Adjustment due to the Issuance of Tax Credit Notes",
-              "content": "Without prejudice to Clause (2) of Article (62) of this Decree-Law, if the [Registrant]  issues a [Tax Credit Note] to correct [Output Tax] charged to the [Recipient of Goods]  or [Recipient of Services] , the Tax stated in the [Tax Credit Note] shall be considered as:",
+              "content": "Without prejudice to <LKNS>T07C04A62CL02<LNKC>Clause (2) of Article (62)<LNKE> of this Decree-Law, if the [Registrant]  issues a [Tax Credit Note] to correct [Output Tax] charged to the [Recipient of Goods]  or [Recipient of Services] , the Tax stated in the [Tax Credit Note] shall be considered as:",
               "clauses": [
                 {
                   "ref": "T07C04A63CL01",
@@ -1918,7 +1918,7 @@
                     {
                       "ref": "T07C04A64CL02PA",
                       "name": "",
-                      "content": "The registered supplier reduced the [Output Tax] as stated in Clause (1) of this Article and the [Recipient of Goods]  and the [Recipient of Services]  has received a notification from the supplier of the [Consideration] being written off."
+                      "content": "The registered supplier reduced the [Output Tax] as stated in <LKNS>T07C04A64CL01<LNKC>Clause (1)<LNKE> of this Article and the [Recipient of Goods]  and the [Recipient of Services]  has received a notification from the supplier of the [Consideration] being written off."
                     },
                     {
                       "ref": "T07C04A64CL02PB",
@@ -1935,7 +1935,7 @@
                 {
                   "ref": "T07C04A64CL03",
                   "name": "",
-                  "content": "The reduction stated in Clause (1) and (2) shall be equal to the Tax related to the [Consideration] which has been written off according to paragraph (b) of Clause (1) of this Article."
+                  "content": "The reduction stated in Clause <LNKS>T07C04A64CL01<LKNC>(1)<LNKE> and <LNKS>T07C04A64CL02<LKNC>(2)<LNKE> shall be equal to the Tax related to the [Consideration] which has been written off according to <LNKS>T07C04A64CL01PB<LKNC>paragraph (b) of Clause (1)<LNKE> of this Article."
                 }
               ]
             }
@@ -2002,7 +2002,7 @@
             },
             {
               "ref": "T07C05A66",
-              "name": "Article (66) - Document of Supplies to an [Implementing States]",
+              "name": "Article (66) - Document of Supplies to an Implementing States",
               "content": "Without prejudice to Article (65) of this Decree-Law, each [Registrant]  who supplies [Goods] or [Services] considered as supplied in any of the [Implementing States], shall provide the [Recipient of Goods]  and [Recipient of Services]  with a document that includes all the information that must be included in the [Tax Invoice] and any other information as specified in the Executive Regulation of this Decree-Law, provided that this document is not labelled “Tax Invoice” and does not include any Tax charged.",
               "clauses": []
             },
@@ -2039,12 +2039,12 @@
                 {
                   "ref": "T07C06A65CL01",
                   "name": "",
-                  "content": "The [Registrant]  shall issue an original [Tax Credit Note] when a reduction of [Output Tax] occurs in relation to any supply made by him according to Clause (2) of Article (62) of this Decree-Law and deliver the same to the [Recipient of Goods]  or [Recipient of Services] ."
+                  "content": "The [Registrant]  shall issue an original [Tax Credit Note] when a reduction of [Output Tax] occurs in relation to any supply made by him according to <LNKS>T07C04A62CL02<LNKC>Clause (2) of Article (62)<LNKE> of this Decree-Law and deliver the same to the [Recipient of Goods]  or [Recipient of Services] ."
                 },
                 {
                   "ref": "T07C06A65CL02",
                   "name": "",
-                  "content": "When making a [Deemed Supply], the [Registrant]  shall issue an original [Tax Credit Note] when a reduction occurs to the [Output Tax] in relation to such supply according to Article (61) of this Decree-Law and shall keep the same in his records."
+                  "content": "When making a [Deemed Supply], the [Registrant]  shall issue an original [Tax Credit Note] when a reduction occurs to the [Output Tax] in relation to such supply according to <LNKS>T07C04A61<LNKC>Article (61)<LNKE> of this Decree-Law and shall keep the same in his records."
                 },
                 {
                   "ref": "T07C06A65CL03",
@@ -2160,7 +2160,7 @@
                     {
                       "ref": "T08C03A74CL01PB",
                       "name": "",
-                      "content": "If the Tax paid to the [Authority] by the [Taxable Person] exceeds the [Payable Tax] according to the provisions of this Decree-Law, other than in the instance mentioned in paragraph (a) of Clause (1) of this Article."
+                      "content": "If the Tax paid to the [Authority] by the [Taxable Person] exceeds the [Payable Tax] according to the provisions of this Decree-Law, other than in the instance mentioned in paragraph (a) of <LNKS>T08C03A74CL01PA<LNKC>Clause (1)<LNKE> of this Article."
                     }
                   ]
                 },
@@ -2264,7 +2264,7 @@
             {
               "ref": "T09COOA77",
               "name": "Article (77) - Tax Evasion",
-              "content": "If it is proven that a [Person] who is not a [Registrant]  acquires [Goods] referred to in Clause (3) of Article 48 of this Decree-Law, claiming that he is a [Registrant] , he shall be considered as having committed Tax Evasion and shall be subject to the penalties provided for in Federal Law No. (7) of 2017 on Tax Procedures.",
+              "content": "If it is proven that a [Person] who is not a [Registrant]  acquires [Goods] referred to in <LNKS>T06C04A48CL03<LNKC>Clause (3) of Article 48<LNKE> of this Decree-Law, claiming that he is a [Registrant] , he shall be considered as having committed Tax Evasion and shall be subject to the penalties provided for in Federal Law No. (7) of 2017 on Tax Procedures.",
               "clauses": []
             }
           ]
@@ -2339,7 +2339,7 @@
                     {
                       "ref": "T10COOA78CL01PJ",
                       "name": "",
-                      "content": "Records of any Taxable Supplies made or received in accordance with Clause (3) of Article 48 of this Decree-Law, including any declarations provided or received in respect of those Taxable Supplies."
+                      "content": "Records of any Taxable Supplies made or received in accordance with <LNKS>T06C04A48CL03<LNKC>Clause (3) of Article 48<LNKE> of this Decree-Law, including any declarations provided or received in respect of those Taxable Supplies."
                     },
                     {
                       "ref": "T10COOA78CL01PK",
@@ -2354,7 +2354,7 @@
                         {
                           "ref": "T10COOA78CL01PKSP02",
                           "name": "",
-                          "content": "[Due Tax] on Taxable Supplies pursuant to the mechanism in Clause (1) of Article (48) of this Decree-Law."
+                          "content": "[Due Tax] on Taxable Supplies pursuant to the mechanism in <LNKS>T06C04A48CL01<LNKC>Clause (1) of Article 48<LNKE> of this Decree-Law."
                         },
                         {
                           "ref": "T10COOA78CL01PKSP03",
@@ -2383,12 +2383,12 @@
                     {
                       "ref": "T10COOA78CL02PA",
                       "name": "",
-                      "content": "Time limits, restrictions and conditions for keeping the records listed in Clause (1) of this Article."
+                      "content": "Time limits, restrictions and conditions for keeping the records listed in <LNKS>T10COOA78CL01<LNKC>Clause (1)<LNKE> of this Article."
                     },
                     {
                       "ref": "T10COOA78CL02PA",
                       "name": "",
-                      "content": "Restrictions and procedures regarding the maintenance of the confidentiality of the records that may be accessed by the [Authority] in the case of [Government Entities] mentioned under Clause (2) of Article (72) of this Decree-Law."
+                      "content": "Restrictions and procedures regarding the maintenance of the confidentiality of the records that may be accessed by the [Authority] in the case of [Government Entities] mentioned under <LNKS>T08C02A72CL02<LNKC>Clause (2) of Article (72)<LNKE> of this Decree-Law."
                     }
                   ]
                 }

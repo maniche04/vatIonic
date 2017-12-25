@@ -1,0 +1,33 @@
+<!--
+  Generated template for the LawPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>Executive Regulations</ion-title>
+    </ion-navbar>
+
+  </ion-header>
+  <ion-content padding>
+    <div *ngIf="execregulations.titles.length == 0">
+      Loading...
+    </div>
+    <h2>{{execregulations.title}}</h2>
+    <ion-searchbar *ngIf = "execregulations.titles.length > 0"
+        [(ngModel)]="filterExec"
+        [showCancelButton]="true">
+    </ion-searchbar>
+    <br *ngIf="filterExec.length == 0"/>
+    <div *ngFor="let title of execregulations.titles">
+        <h5 *ngIf="filterExec.length == 0">{{title.name}} - {{title.description}}</h5>
+        <div *ngFor="let chapter of title.chapters">
+            <h6 *ngIf = "(chapter.description.length > 0) && (filterExec.length == 0)">{{chapter.description}}</h6>
+            <vat-article *ngFor="let article of chapter.articles | filterContent: filterExec" [source] = "source" [definitions] = "execDefinitions" [article]="article"></vat-article>
+            <br *ngIf="filterExec.length ==0">
+        </div>
+        <br *ngIf="filterExec.length == 0">
+    </div>
+  </ion-content>

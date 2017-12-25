@@ -19,14 +19,17 @@
 
 <ion-content padding>
     Welcome to UAE VAT Guide.
-
+    <hr>
     <ion-grid>
       <ion-row>
-        <ion-col col-6>
-            <navtile [link]="'Law'" [icon]="'book'" [title]="'Law'" [subtitle]="'Federal Decree-Law No. (8) of 2017 on VAT'"></navtile>
-        </ion-col>
-        <ion-col col-6>
+        <ion-col col-12>
             <navtile [link]="'News'" [icon]="'paper'" [title]="'News'" [subtitle]="'Compilation of VAT related news'"></navtile>
+        </ion-col>
+        <ion-col col-12>
+            <navtile [link]="'Law'" [icon]="'book'" [title]="'VAT Act'" [subtitle]="'Federal Decree-Law No. (8) of 2017 on VAT'"></navtile>
+        </ion-col>
+        <ion-col col-12>
+          <navtile [link]="'ExecRegulations'" [icon]="'book'" [title]="'Executive Regulations'" [subtitle]="'Cabinet Decision No. (52) of 2017 on the Executive Regulations (VAT)'"></navtile>
         </ion-col>
       </ion-row>
     </ion-grid>

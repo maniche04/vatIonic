@@ -34,7 +34,6 @@ export class VatdetailPage {
       this.parseValue();
     }
   }
-  //T01C00A01CL01PASP1
 
   parseValue() {
     if (this.detailCode.length > 7) {
@@ -45,10 +44,12 @@ export class VatdetailPage {
       var articleref = this.detailCode.substring(0,9);
 
       titlecode = titlecode - 1;
+
       if (chaptercode > 0) {
         chaptercode = chaptercode -1;
       }
-      this.localdb.getData('vat.json').subscribe((data) => {
+
+      this.localdb.getData(this.navParams.get('source')).subscribe((data) => {
 
         var chapters = data.titles[titlecode].chapters[chaptercode];
         for (let art of chapters.articles) {

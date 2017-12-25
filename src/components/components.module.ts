@@ -6,6 +6,7 @@ import { PipesModule } from './../pipes/pipes.module';
 import { NewsArticleComponent } from './news-article/news-article';
 import { InAppBrowser} from '@ionic-native/in-app-browser';
 import { VatArticleComponent } from './vat-article/vat-article';
+
 @NgModule({
 	declarations: [NavtileComponent,
     NewsArticleComponent,

@@ -16,14 +16,18 @@
     Loading...
   </div>
   <h2>{{vatlaw.title}}</h2>
-  <br>
+  <ion-searchbar *ngIf = "vatlaw.titles.length > 0"
+      [(ngModel)]="filterLaw"
+      [showCancelButton]="true">
+  </ion-searchbar>
+  <br *ngIf="filterLaw.length ==0"/>
   <div *ngFor="let title of vatlaw.titles">
-      <h5>{{title.name}} - {{title.description}}</h5>
+      <h5 *ngIf="filterLaw.length == 0">{{title.name}} - {{title.description}}</h5>
       <div *ngFor="let chapter of title.chapters">
-          <h6 *ngIf = "chapter.description.length > 0">{{chapter.description}}</h6>
-          <vat-article *ngFor="let article of chapter.articles" [definitions] = "definitions" [article]="article"></vat-article>
-          <br>
+          <h6 *ngIf = "(chapter.description.length > 0) && (filterLaw.length == 0)">{{chapter.description}}</h6>
+          <vat-article *ngFor="let article of chapter.articles | filterContent: filterLaw" [source] = "source" [definitions] = "definitions" [article]="article"></vat-article>
+          <br *ngIf="filterLaw.length ==0">
       </div>
-      <br>
+      <br *ngIf="filterLaw.length ==0">
   </div>
 </ion-content>
